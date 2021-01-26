@@ -1,11 +1,11 @@
 const body = document.querySelector("body");
 
-const IMG_NUMBER = 4;
+const IMG_NUMBER = 2;
 
 function paintImage(imgNumber) {
     const image = new Image();
     image.src = `images/${imgNumber + 1}.jpg`;
-    image.classList.add("bgImage");
+    image.classList.add("main-bgImage");
     body.appendChild(image);
 }
 

@@ -1,0 +1,41 @@
+.main-home {
+    margin-top: 15%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-home__picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.main-home__picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 3px solid #ffffff;
+}
+
+.main-home__clock {
+    font-size: 10em;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.main-home__text {
+    width: 60%;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.main-home__description {
+    margin-top: 10px;
+    width: 60%;
+    color: #ffffff;
+    font-size: 30px;
+}

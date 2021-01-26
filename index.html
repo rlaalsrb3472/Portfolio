@@ -3,22 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/background.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" 
+        href="images/mg.JPG" />
     <title>Portfolio - Home</title>
 </head>
 <body>
-    <header>
-        <div class="main-header__wheater">
-            <i class="far fa-sun"></i>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <a href="#home">Mingyu</a>
         </div>
-    </header>
-
-    <div class="js-clock">
-        <h1 class="js-title">00:00</h1>
+        <div class="status-bar__column">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pages">Pages</a></li>
+            </ul>
+        </div>
+        <div class="status-bar__column">
+            <span class="status-bar__weather-text"></span>
+            <div class="status-bar__weather">
+                <i class="far fa-sun"></i>
+            </div>
+        </div>
     </div>
+
+    
+    <main class="main-home" id="home">
+        <div class="main-home__picture">
+            <img src="images/mg.JPG" />
+        </div>
+        <div class="main-home__clock">
+            <h1 class="js-clock">00:00</h1>
+        </div>
+        <div class="main-home__text">
+            <p>Hello This Is Mingyu</p>
+        </div>
+        <div class="main-home__description">
+            <p>ㅡ Creative Designer</p>
+        </div>
+    </main>
+
+
+    <footer class="main-footer">
+        <div class="main-footer__text">
+            <p>Copyright &copy2021; All rights reserved Designed by Mingyu</p>
+        </div>
+    </footer>
 
     <script src="js/clock.js"></script>
     <script src="js/background.js"></script>
     <script src="js/weather.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous">
+    </script>
+
 </body>
 </html>
