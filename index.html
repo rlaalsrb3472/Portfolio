@@ -5,17 +5,42 @@
     <title>Portfolio - Home</title>
     <meta name="viewport" content="width=device-width" />
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-   
-    <div class="js-clock">
-        <h1>00:00</h1>
+    
+    <div class="fixed-side-navbar">
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#home"><span>Main</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><span>Intro</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><span>fisrt-project</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><span>kakao-clone-project</span></a></li>
+        </ul>
     </div>
 
-    <script src="js/clock.js"></script>
-    <script src="js/background.js"></script>
+    
+        <header class="main-screen main-content" id="home">
+            <div class="container">
+                <div class="main-header__column">
+                    <div class="main-header__weather">
+                        <i class="far fa-sun"></i>
+                    </div>
+                </div>
+                <div class="main-header__column">
+                    <div class="main-clock">
+                        <h1 class="main-clock__time">00:00</h1>
+                    </div>
+                    <span><em>Portfolio</em> Design by 김민규</span>
+                    <div class="primary-button">
+                        <a href="#services">Let's go</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <script src="js/clock.js"></script>
 </body>
 
 </html> 

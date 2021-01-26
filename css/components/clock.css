@@ -1,0 +1,13 @@
+.main-clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.main-clock__time {
+    cursor: default;
+    font-size: 10em;
+    color: #fff;
+}
