@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 @import "reset.css";
-@import "background.css";
 
 /* Screens */
 @import "screens/main.css";
 @import "screens/intro.css";
 
 /* Components */
+@import "components/background.css";
 @import "components/status-bar.css";
 @import "components/footer.css";
 @import "components/no-mobile.css";
@@ -17,3 +17,7 @@ body {
     color: #2e363e;
     height: 200vh;
 }
+ 
+
+
+

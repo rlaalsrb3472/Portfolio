@@ -13,60 +13,100 @@
     <div id="no-mobile">
         <p>스크린을 늘려주세요<br>(min-width:700)</p>
     </div>
-
-    <div class="status-bar">
-        <div class="status-bar__column">
-            <a href="#home">Mingyu</a>
-        </div>
-        <div class="status-bar__column">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#intro">Intro</a></li>
-                <li><a href="#pages">Pages</a></li>
-            </ul>
-        </div>
-        <div class="status-bar__column">
-            <span class="status-bar__weather-text"></span>
-            <div class="status-bar__weather">
-                <i class="far fa-sun"></i>
-            </div>
-        </div>
-    </div>
     
-    <main class="main-home" id="home">
-        <div class="main-home__picture">
-            <img src="images/mg.JPG" />
-        </div>
-        <div class="main-home__clock">
-            <h1 class="js-clock">00:00</h1>
-        </div>
-        <div class="main-home__text">
-            <p>Hello This Is Mingyu</p>
-        </div>
-        <div class="main-home__start">
-            <a href="#intro-screen">Get Start!</a>
-        </div>
-    </main>
-
-    <div class="intro-screen">
-        <div class="container">
-            <div class="intro__column">
-                <h1 class="intro__title">경력 및 경험</h1>
-                <ul class="intro__content">
-                    <li class="intro__content-item"></li>
-                    <li class="intro__content-item"></li>
-                    <li class="intro__content-item"></li>
+    <div class="status-bar">
+            <div class="status-bar__column">
+                <a href="#home">Mingyu</a>
+            </div>
+            <div class="status-bar__column">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#pages">Pages</a></li>
                 </ul>
             </div>
-        </div>
+            <div class="status-bar__column">
+                <span class="status-bar__weather-text"></span>
+                <div class="status-bar__weather">
+                    <i class="far fa-sun"></i>
+                </div>
+            </div>
+    </div>
+        
+    <header class="main-home" id="home">
+            <div class="main-home__picture">
+                <img src="images/mg.JPG" />
+            </div>
+            <div class="main-home__clock">
+                <h1 class="js-clock">00:00</h1>
+            </div>
+            <div class="main-home__text">
+                <p>Hello This Is Mingyu</p>
+            </div>
+            <div class="main-home__start">
+                <a href="#intro">Get Start!</a>
+            </div>
+    </header>
+
+    <div class="intro-screen" id="intro">
+        <h1 class="intro__title">경력 및 경험</h1>
+            <div class="intro-contents">
+                <h3 class="intro-contents__title">JAVA 응용SW 정보처리 산업기사 자격 취득</h3>
+                <div class="intro-contents__content">
+                    <img src="https://www.hrd.go.kr/new_images/common/headerLogo02.png" />
+                    <ul>
+                        <li>기관 : HRD-NET</li>
+                        <li>기간 : 2020년 9월 ~ 2021년 2월</li>
+                        <li>취득 : 정보처리 산업기사</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            <div class="intro-contents">
+                <h3 class="intro-contents__title">부산을 소개하는 프로젝트</h3>
+                <div class="intro-contents__content">
+                    <img src="https://rlaalsrb3472.github.io/introduceBusanProject/imgs/main-section.png" />
+                    <ul>
+                        <li>프로젝트 명 : introduce-Busan-Project</li>
+                        <li>기간 : 2020년 12월 ~ 2021년 1월</li>
+                        <li>
+                            사용 기술 : HTML, CSS, javascript, bootstrap, jquery
+                        </li>
+                    </ul>
+                    <div class="intro-contents__content-icon">
+                        <a href="https://github.com/rlaalsrb3472/introduceBusanProject">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                        <a href="https://rlaalsrb3472.github.io/introduceBusanProject/" >
+                            <i class="far fa-comment-alt fa-2x"></i>
+                        </a>
+                    </div>    
+                </div>
+            </div>
+            
+            <div class="intro-contents">
+                <h3 class="intro-contents__title">노마드 코더 카카오 클론 코딩</h3>
+                <div class="intro-contents__content">
+                    <img src="https://www.kakaocorp.com/resources/favicon.ico"  />
+                    <ul>
+                        <li>기관 : 노마드 코더</li>
+                        <li>기간 : 2020년 12월 ~ 2021년 12월</li>
+                        <li>취득 기술 : HTML5, CSS3, javascript</li>
+                    </ul>
+                    <div class="intro-contents__content-icon">
+                        <a href="https://rlaalsrb3472.github.io/kakao-clone-project/">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                        <a href="https://nomadcoders.co/certs/2b55dfe4-e2c8-42a1-9f35-344d93d0ba5e" >
+                            <i class="far fa-comment-alt fa-2x"></i>
+                        </a>
+                    </div>    
+                </div>
+            </div>
     </div>
 
-    <footer class="main-footer">
-        <div class="main-footer__text">
-            <p>Copyright &copy2021; All rights reserved Designed by Mingyu</p>
-        </div>
-    </footer>
-
+    
     <script src="js/clock.js"></script>
     <script src="js/background.js"></script>
     <script src="js/weather.js"></script>
@@ -74,6 +114,8 @@
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous">
     </script>
+
+
 
 </body>
 </html>

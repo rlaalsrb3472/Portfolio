@@ -1,5 +1,5 @@
 .status-bar {
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     display: flex;
@@ -10,6 +10,11 @@
 
 .status-bar__column {
     width: 66%;
+}
+
+.status-bar a:hover {
+    background-color: #dddddd;
+    color:black;
 }
 
 .status-bar__column:first-child a {
