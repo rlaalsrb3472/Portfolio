@@ -5,10 +5,12 @@
 
 /* Screens */
 @import "screens/main.css";
+@import "screens/intro.css";
 
 /* Components */
 @import "components/status-bar.css";
 @import "components/footer.css";
+@import "components/no-mobile.css";
 
 body {
     font-family: "Open Sans", sans-serif;
