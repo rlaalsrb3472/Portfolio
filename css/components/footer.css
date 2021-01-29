@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 100%;
+    padding: 3% 0;
+}
+footer p {
+    color: white;
+    font-size: 20px;
+}
+
+footer i {
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
