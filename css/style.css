@@ -5,17 +5,18 @@
 /* Screens */
 @import "screens/main.css";
 @import "screens/intro.css";
+@import "screens/education.css";
 
 /* Components */
 @import "components/background.css";
 @import "components/status-bar.css";
 @import "components/footer.css";
 @import "components/no-mobile.css";
+@import "components/footer.css";
 
 body {
     font-family: "Open Sans", sans-serif;
     color: #2e363e;
-    height: 200vh;
 }
  
 
