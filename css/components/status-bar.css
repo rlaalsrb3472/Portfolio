@@ -43,6 +43,7 @@
 }
 
 .status-bar__column:last-child {
+    margin-right: 5%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
