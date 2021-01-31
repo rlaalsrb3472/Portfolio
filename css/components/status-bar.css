@@ -22,7 +22,7 @@
     color: #ffffff;
     font-size: 30px;
     font-weight: 600;
-    margin: 30px;
+    margin-left: 5%;
 }
 
 .status-bar__column:nth-child(2) {
@@ -43,7 +43,7 @@
 }
 
 .status-bar__column:last-child {
-    margin-right: 5%;
+    margin-right: 3%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
