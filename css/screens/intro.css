@@ -48,8 +48,8 @@
 }
 .intro-contents__content img {
     border-style: none;
-    width: 300px;
-    height: 300px;
+    width: 50%;
+    height: 50%;
 }
 
 .intro-contents__content ul {
